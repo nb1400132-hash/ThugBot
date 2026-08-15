@@ -1,0 +1,20 @@
+[Unit]
+Description=thugbot discord bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/root/george_build
+EnvironmentFile=/root/george_build/.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/root/george_build/venv/bin/python /root/george_build/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

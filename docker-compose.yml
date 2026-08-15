@@ -1,0 +1,13 @@
+version: "3"
+services:
+  thugbot:
+    build: .
+    container_name: thugbot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./assets:/app/assets
+      - ./downloads:/app/downloads
+      - ./preset1files:/app/preset1files
