@@ -8,3 +8,13 @@ https://discord.gg/ZZBkzMUbdT
 Also if you think this is malware, literally look through the code, I gave you the entire src too it lmao.
 
 **Created by UN THUGS / UN ANCESTOR**
+
+# UN THUGS THUG BOT
+
+- UN ANCESTOR made this shit
+- Do not claim this for yourselfs
+- You are allowed to fork it/modify it in any way you want and add credits to yourself
+- Do whatever the fuck you want with it.
+- Its pretty simple to setup so im not even going to bother going through those steps
+
+- The service file is for running it on a vps, you can delete that if you want idgaf. For me I am running it on my own vps.
